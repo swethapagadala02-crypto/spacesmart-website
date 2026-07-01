@@ -1,0 +1,56 @@
+.about{
+    padding:100px 80px;
+    text-align:center;
+    background:white;
+}
+
+.section-tag{
+    color:#4A90D9;
+    font-weight:700;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.about h2{
+    font-size:42px;
+    color:#0B2A4A;
+    margin-bottom:20px;
+}
+
+.about-text{
+    max-width:750px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+    color:#666;
+}
+
+.about-cards{
+    margin-top:60px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.card{
+    background:#F8FAFC;
+    padding:35px;
+    border-radius:16px;
+    text-align:left;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#0B2A4A;
+}
+
+.card p{
+    color:#666;
+    line-height:1.6;
+}

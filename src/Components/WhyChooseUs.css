@@ -1,0 +1,63 @@
+.why{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+    padding:100px 80px;
+    background:white;
+}
+
+.why-left{
+    flex:1;
+}
+
+.why-left h2{
+    font-size:42px;
+    color:#0B2A4A;
+    margin-bottom:40px;
+}
+
+.feature-list{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.feature-card{
+    display:flex;
+    gap:20px;
+    align-items:flex-start;
+}
+
+.tick{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#4A90D9;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.feature-card h3{
+    color:#0B2A4A;
+    margin-bottom:8px;
+}
+
+.feature-card p{
+    color:#666;
+    line-height:1.6;
+}
+
+.why-right{
+    flex:1;
+}
+
+.why-right img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
