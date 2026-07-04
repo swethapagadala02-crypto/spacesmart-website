@@ -2,7 +2,7 @@ import "./Hero.css";
 
 import { FaCheckCircle } from "react-icons/fa";
 
-function Hero() {
+function Hero({ openPopup }) {
   return (
     <section className="hero">
 
@@ -36,13 +36,19 @@ function Hero() {
 
         <div className="hero-buttons">
 
-          <button className="primary-btn">
-            Get Started
+          <button
+          className="primary-btn"
+          onClick={openPopup}
+          >
+          Get Started
           </button>
 
-          <button className="secondary-btn">
-            Contact Us
-          </button>
+          <button
+        className="secondary-btn"
+        onClick={openPopup}
+        >
+        Contact Us
+        </button>
 
         </div>
 

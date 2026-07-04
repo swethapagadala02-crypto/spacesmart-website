@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import logo from "../assets/images/logo.png";
 
-function Navbar() {
+function Navbar({ openPopup }) {
   return (
     <nav className="navbar">
       <div className="logo-container">
@@ -21,7 +21,12 @@ function Navbar() {
         <li><a href="#">Contact</a></li>
       </ul>
 
-      <button className="quote-btn">Get a Quote</button>
+      <button
+  className="quote-btn"
+  onClick={openPopup}
+>
+  Get a Quote
+</button>
     </nav>
   );
 }
