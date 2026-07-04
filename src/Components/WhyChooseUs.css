@@ -61,3 +61,20 @@
     border-radius:20px;
     box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
+@media(max-width:768px){
+
+.why-container{
+    flex-direction:column;
+}
+
+.why-left,
+.why-right{
+    width:100%;
+}
+
+.why-right img{
+    width:100%;
+    margin-top:30px;
+}
+
+}

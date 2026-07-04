@@ -68,3 +68,39 @@
 .quote-btn:hover {
   background: #0B2A4A;
 }
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    height:auto;
+    padding:20px;
+    gap:20px;
+}
+
+.logo-container{
+    justify-content:center;
+}
+
+.company-name h2{
+    font-size:24px;
+}
+
+.company-name p{
+    font-size:10px;
+    letter-spacing:2px;
+}
+
+.nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.quote-btn{
+    width:100%;
+    max-width:220px;
+}
+
+}

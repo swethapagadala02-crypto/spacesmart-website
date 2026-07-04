@@ -59,3 +59,10 @@
     color:#666;
     font-weight:600;
 }
+@media(max-width:768px){
+
+.achievement-container{
+    grid-template-columns:1fr;
+}
+
+}

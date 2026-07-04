@@ -42,3 +42,14 @@
     color:#666;
     line-height:1.6;
 }
+@media(max-width:768px){
+
+.services{
+    padding:60px 20px;
+}
+
+.services-container{
+    grid-template-columns:1fr;
+}
+
+}

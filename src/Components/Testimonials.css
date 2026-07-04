@@ -43,6 +43,13 @@
 .testimonial-card h3{
     color:#0B2A4A;
 }
+@media(max-width:768px){
+
+.testimonial-container{
+    grid-template-columns:1fr;
+}
+
+}
 
 .testimonial-card span{
     color:#777;

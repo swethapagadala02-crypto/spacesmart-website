@@ -54,3 +54,22 @@
     color:#666;
     line-height:1.6;
 }
+@media(max-width:768px){
+
+.about{
+    flex-direction:column;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.about-left,
+.about-right{
+    width:100%;
+}
+
+.about-right img{
+    width:100%;
+    margin-top:30px;
+}
+
+}

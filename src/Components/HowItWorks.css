@@ -58,3 +58,14 @@
     color:#666;
     line-height:1.6;
 }
+@media(max-width:768px){
+
+.process{
+    padding:60px 20px;
+}
+
+.process-container{
+    grid-template-columns:1fr;
+}
+
+}

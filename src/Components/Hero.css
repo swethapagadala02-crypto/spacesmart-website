@@ -134,3 +134,60 @@ transform:translateY(0px);
     font-size:15px;
     color:#666;
 }
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero-left,
+.hero-right{
+    width:100%;
+}
+
+.hero-left h1{
+    font-size:36px;
+}
+
+.hero-left p{
+    font-size:16px;
+    margin:auto;
+}
+
+.hero-features{
+    grid-template-columns:1fr;
+    text-align:left;
+    margin-top:25px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    align-items:center;
+    margin-top:30px;
+}
+
+.primary-btn,
+.secondary-btn{
+    width:100%;
+    max-width:260px;
+}
+
+.hero-right{
+    margin-top:40px;
+}
+
+.hero-right img{
+    width:100%;
+}
+
+.stats{
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+}
